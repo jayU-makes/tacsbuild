@@ -786,9 +786,11 @@ function svgRes(){
 	if($(window).width() < 1200)
 	{
 		document.getElementById('svgid').setAttribute('transform','rotate(90)');
+		$('#svgid').css('-webkit-transform','rotate(90deg)');
 		r =1;
 	}else if(r===1){
 		document.getElementById('svgid').setAttribute('transform','rotate(0)');
+		$('#svgid').css('-webkit-transform','rotate(0deg)');
 		document.getElementById('svgid').setAttribute('viewBox','0 0 1100 800');
 		r=0;
 	}

@@ -387,6 +387,7 @@ svg:not(:root) {
     vertical-align: middle;
     height: 100%;
     max-width: none;
+    background-color: transparent;
 }
 
 .tabb {
